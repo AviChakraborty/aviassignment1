@@ -1,19 +1,117 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
-h1{
-    font-size: 60px;
-}
-h2{
-    font-size: 50px;
-}
-h3{
-    font-size:40px ;
-}
-button{
 
-    font-size: 20px;
+h1 {
+    font-size: 60px;
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+    color: white;
+}
+
+h3 {
+    color: black;
+    font-size: 70px;
+}
+
+p {
+    color: orangered
+}
+
+
+}
+
+button {
+
+    font-size: 80px;
     color: orangered;
     padding: 10px 20px;
 }
 
+.first-part {
+    background-image: url(images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.relief-money {
+    position: relative;
+    width: 25%
+}
+
+    {
+    box-sizing: border-box;
+
+
+}
+
+
+.column {
+    float: left;
+    width: 15%;
+    border-radius: 40px;
+    padding: 30px;
+    height: 30px;
+
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background color: white-space:;
+}
+
+h5 {
+    font-size: 60px;
+    text-align: center;
+    color: green;
+}
+
+.container .box {
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+
+.container .box .box-cell.box1 {
+    background: palegreen;
+    color: white;
+
+}
+
+.container .box .box-cell.box2 {
+    background: paleturquoise;
+
+}
+
+.container .box .box-cell.box3 {
+    background: orange;
+}
+
+.container .box .box-cell.box4 {
+    background: yellow;
+}
+
+footer {
+    text-align: center;
+    background: black;
+}
+
+.laster dike {
+
+    color: white;
+    padding: 100px
+}
+
+"
